@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@/*": [
+        // 这里的配置只是为了代码提示，实际将@转换为src是在vite.config.js中的配置进行路径替换的
+        "src/*"
+      ]
+    },
+    "types": ["element-plus/global"]
+  }
+}

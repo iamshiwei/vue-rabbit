@@ -1,17 +1,18 @@
 <script setup>
-import {RouterView} from 'vue-router'
+import {RouterView} from "vue-router";
 </script>
 
 <template>
-  <div>
-    <el-button type="primary">Primary</el-button>a
-    <el-button type="danger">Danger</el-button>
+  <div class="test">
+    test scss
   </div>
-
-  <RouterView/>
+<RouterView />
 </template>
-
-<style scoped>
+ 
+<style scoped lang="scss">
+.test {
+  color: $xtxColor;
+}
 header {
   line-height: 1.5;
   max-height: 100vh;

@@ -3,16 +3,14 @@ import {RouterView} from "vue-router";
 </script>
 
 <template>
-  <div class="test">
-    test scss
-  </div>
-<RouterView />
+  <RouterView/>
 </template>
- 
+
 <style scoped lang="scss">
 .test {
   color: $xtxColor;
 }
+
 header {
   line-height: 1.5;
   max-height: 100vh;
